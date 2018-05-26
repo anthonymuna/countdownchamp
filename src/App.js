@@ -26,7 +26,7 @@ class App extends Component {
                     onChange={event => this.setState({newDeadline: event.target.value})}
                     />
                     <Button onClick={() =>this.changeDeadline() }>Submit</Button>
-                </Form>>
+                </Form>
             </div>
         );
     }
